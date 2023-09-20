@@ -17601,4 +17601,15 @@ textarea.form-control-lg {
 }
 .gradient:hover {
   opacity: 1;
+}
+
+.card-gardient-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.card-gardient-link.active {
+  opacity: 1;
 }/*# sourceMappingURL=all.css.map */
